@@ -5,7 +5,7 @@ public class BubbleVisualManager : MonoBehaviour
 {
     [SerializeField] private float squashScale, squashTime, translateScale, translateTime;
     [SerializeField] private GameObject sprite;
-    [SerializeField] private ParticleSystem popParticles;
+    [SerializeField] private ParticleSystem[] popParticles;
 
     private void Awake()
     {
@@ -22,6 +22,9 @@ public class BubbleVisualManager : MonoBehaviour
     private void OnBubblePop(object sender, EventArgs args)
     {
         sprite.SetActive(false);
-        popParticles.Play();
+        foreach (ParticleSystem particle in popParticles)
+        {
+            particle.Play();
+        }
     }
 }

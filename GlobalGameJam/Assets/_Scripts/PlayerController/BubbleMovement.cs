@@ -15,19 +15,27 @@ public class BubbleMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // rb.gravityScale = Mathf.Abs(gravity) * -1;
-        
     }
 
     private void Start()
     {
+        // TODO: Clean up subscriptions
         GameManager.Instance.bubblePop.OnBubblePop += OnBubblePop;
+        GameManager.Instance.OnStartGame += OnStartGame;
     }
 
     private void OnBubblePop(object sender, EventArgs args)
     {
         rb.gravityScale = 0;
         rb.linearDamping = popDrag;
+        SoundManager.Instance?.PlayEntireSound(SoundManager.Sounds.Pop);
+    }
+    
+    private void OnStartGame(object sender, EventArgs args)
+    {
+        rb.gravityScale = Mathf.Abs(gravity) * -1;
+        rb.linearDamping = 0;
+        isMoving = true;
     }
 
     // Update is called once per frame
