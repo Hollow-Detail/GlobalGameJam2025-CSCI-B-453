@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
@@ -9,8 +10,8 @@ public class BubbleMovement : MonoBehaviour
     [SerializeField] private float maxYSpeed, maxXSpeed, gravity, acceleration, decelerationScale;
     [SerializeField] private float popDrag;
 
-    private bool isMoving;
-    private Rigidbody2D rb;
+    private bool isMoving, inWind;
+    public Rigidbody2D rb { get; private set; }
 
     void Awake()
     {
@@ -41,7 +42,16 @@ public class BubbleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocityX, -maxXSpeed, maxXSpeed),Mathf.Clamp(rb.linearVelocityY, 0, maxYSpeed));
+        
+        // Only clamp X speed if not in a wind tunnel
+        
+        if (!inWind)
+        {
+            rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocityX, -maxXSpeed, maxXSpeed),rb.linearVelocityY);
+        }
+        
+        
+        rb.linearVelocity = new Vector2(rb.linearVelocityX,Mathf.Clamp(rb.linearVelocityY, 0, maxYSpeed));
         
         
         // DEBUG
@@ -69,5 +79,16 @@ public class BubbleMovement : MonoBehaviour
             rb.AddForce(new Vector2(-rb.linearVelocityX * decelerationScale, 0f), ForceMode2D.Force);
         }
     }
-    
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out Wind wind))
+        {
+            inWind = true;
+        }
+        else
+        {
+            inWind = false;
+        }
+    }
 }
