@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bm: {fileID: 5240733555521641760}
   maxFallSpeed: 7
-  frozenDuration: 1.5
+  frozenDuration: 1.25
 --- !u!1 &8701841576470367146
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ public class PlayerMove : State
             rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocityX, -clampXSpeed, clampXSpeed),rb.linearVelocityY);
         }
         
-        rb.linearVelocity = new Vector2(rb.linearVelocityX,Mathf.Clamp(rb.linearVelocityY, 0, clampYSpeed));
+        rb.linearVelocity = new Vector2(rb.linearVelocityX,Mathf.Clamp(rb.linearVelocityY, -3, clampYSpeed));
     }
 
     public override void DoFixedUpdateState()

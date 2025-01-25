@@ -17,7 +17,7 @@ public class GameManager : Singleton<GameManager>
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetAxis("Horizontal") != 0)
         {
             StartGame();
         }
