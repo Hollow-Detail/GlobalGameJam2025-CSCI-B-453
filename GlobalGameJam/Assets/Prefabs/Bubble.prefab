@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1085513477589595815}
   m_Layer: 0
   m_Name: Bubble
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   maxXSpeedIce: 2
   gravity: 0.5
   frozenGravity: 1
-  acceleration: 5
+  acceleration: 8
   decelerationScale: 1.5
   freezeTime: 0
   inWind: 0
