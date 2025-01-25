@@ -1,31 +1,130 @@
 fileFormatVersion: 2
-guid: cce4596df75266e4e921e04e184da4c0
+guid: 0a6192718e07dc14c916d4a1e88baf15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4238017783199027580
-    second: Wind1_0
+      213: 7209622655568544861
+    second: Splash_0
   - first:
-      213: 7981359921481204039
-    second: Wind1_1
+      213: -9015287279968768310
+    second: Splash_1
   - first:
-      213: -4031574857034293513
-    second: Wind1_2
+      213: 6870744000029455657
+    second: Splash_2
   - first:
-      213: -4578038934013257588
-    second: Wind1_3
+      213: 3538785334180038776
+    second: Splash_3
   - first:
-      213: 4231884730227534298
-    second: Wind1_4
+      213: -1629924116304457530
+    second: Splash_4
   - first:
-      213: -7197365067645711671
-    second: Wind1_5
+      213: 9220086067365940476
+    second: Splash_5
   - first:
-      213: -419639335283427553
-    second: Wind1_6
+      213: 8612010029636649879
+    second: Splash_6
   - first:
-      213: -5473279384515330363
-    second: Wind1_7
+      213: 674102620742612770
+    second: Splash_7
+  - first:
+      213: -8781281780233588544
+    second: Splash_8
+  - first:
+      213: 1491353820111224382
+    second: Splash_9
+  - first:
+      213: -5346490189649165002
+    second: Splash_10
+  - first:
+      213: -1071628789489021743
+    second: Splash_11
+  - first:
+      213: -1316535513232388925
+    second: Splash_12
+  - first:
+      213: -4606467147417692175
+    second: Splash_13
+  - first:
+      213: -6063533040472932716
+    second: Splash_14
+  - first:
+      213: 3343672976851050745
+    second: Splash_15
+  - first:
+      213: 1386897897123455239
+    second: Splash_16
+  - first:
+      213: 785671528200794038
+    second: Splash_17
+  - first:
+      213: -1986222981532859115
+    second: Splash_18
+  - first:
+      213: -8460573552851619014
+    second: Splash_19
+  - first:
+      213: -1758051276914503099
+    second: Splash_20
+  - first:
+      213: 3854759975010587781
+    second: Splash_21
+  - first:
+      213: 8435344559268120534
+    second: Splash_22
+  - first:
+      213: 6894064447995611973
+    second: Splash_23
+  - first:
+      213: -3045570199118725858
+    second: Splash_24
+  - first:
+      213: 8365076003228267602
+    second: Splash_25
+  - first:
+      213: -3374125008349594638
+    second: Splash_26
+  - first:
+      213: -5401992149619825710
+    second: Splash_27
+  - first:
+      213: 4402075585066246291
+    second: Splash_28
+  - first:
+      213: 2206595932475682491
+    second: Splash_29
+  - first:
+      213: 9003589796872116368
+    second: Splash_30
+  - first:
+      213: -9147839038399301790
+    second: Splash_31
+  - first:
+      213: 7651724825568362449
+    second: Splash_32
+  - first:
+      213: -2936468535674260993
+    second: Splash_33
+  - first:
+      213: 5009297557152076775
+    second: Splash_34
+  - first:
+      213: 6451350004975643207
+    second: Splash_35
+  - first:
+      213: -1601165404142783764
+    second: Splash_36
+  - first:
+      213: -5227862112699837885
+    second: Splash_37
+  - first:
+      213: 5621301389057597184
+    second: Splash_38
+  - first:
+      213: -6555882781095595572
+    second: Splash_39
+  - first:
+      213: 3124051451426006254
+    second: Splash_40
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,194 +216,137 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wind1_0
+      name: Splash_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 560
-        width: 265
-        height: 43
+        x: 0
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c71dd5748b670da30800000000000000
-      internalID: 4238017783199027580
+      spriteID: 2790ee92974497d40b15bdcf1e26ddb7
+      internalID: -1719561830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind1_1
+      name: Splash_1
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 558
-        width: 427
-        height: 105
+        x: 520
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7414d60cf8c73ce60800000000000000
-      internalID: 7981359921481204039
+      spriteID: 644ec45c535e599489ab0489ce354997
+      internalID: 573334615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind1_2
+      name: Splash_2
       rect:
         serializedVersion: 2
-        x: 2165
-        y: 549
-        width: 630
-        height: 147
+        x: 1040
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7fe13191708fc08c0800000000000000
-      internalID: -4031574857034293513
+      spriteID: fd6ae12867376874eaddb0abf4fbca47
+      internalID: -978853940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind1_3
+      name: Splash_3
       rect:
         serializedVersion: 2
-        x: 3275
-        y: 554
-        width: 517
-        height: 145
+        x: 1560
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c885b3258d98770c0800000000000000
-      internalID: -4578038934013257588
+      spriteID: 303b38e0966f4ac4c91548464a900f92
+      internalID: -1691998650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind1_4
+      name: Splash_4
       rect:
         serializedVersion: 2
-        x: 4416
-        y: 554
-        width: 374
-        height: 141
+        x: 2080
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad9ac9b9dbcaaba30800000000000000
-      internalID: 4231884730227534298
+      spriteID: 0fd0aaf784a5f484e91698cbe3ae52fb
+      internalID: 199268848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind1_5
+      name: Splash_5
       rect:
         serializedVersion: 2
-        x: 5634
-        y: 550
-        width: 157
-        height: 140
+        x: 2600
+        y: 0
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ca0c20ba92dd1c90800000000000000
-      internalID: -7197365067645711671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wind1_6
-      rect:
-        serializedVersion: 2
-        x: 6636
-        y: 550
-        width: 143
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1776a67f342d2af0800000000000000
-      internalID: -419639335283427553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wind1_7
-      rect:
-        serializedVersion: 2
-        x: 7635
-        y: 552
-        width: 63
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5cebe7106610b04b0800000000000000
-      internalID: -5473279384515330363
+      spriteID: 4771aea9186b5e542bbeed1c585da5b0
+      internalID: 1610626546
       vertices: []
       indices: 
       edges: []
@@ -313,7 +355,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 826193efa8d78dd449a2e965e0f78cbe
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +365,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wind1_0: 4238017783199027580
-      Wind1_1: 7981359921481204039
-      Wind1_2: -4031574857034293513
-      Wind1_3: -4578038934013257588
-      Wind1_4: 4231884730227534298
-      Wind1_5: -7197365067645711671
-      Wind1_6: -419639335283427553
-      Wind1_7: -5473279384515330363
+      Splash_0: -1719561830
+      Splash_1: 573334615
+      Splash_2: -978853940
+      Splash_3: -1691998650
+      Splash_4: 199268848
+      Splash_5: 1610626546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

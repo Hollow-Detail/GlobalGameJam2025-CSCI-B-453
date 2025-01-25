@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 760d9c373d2867d41a117ee3cf668779
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4004708080983207187
+    second: Ring_0
+  - first:
+      213: -5400542443128171897
+    second: Ring_1
+  - first:
+      213: 6203491974699578629
+    second: Ring_2
+  - first:
+      213: -6673147589521896033
+    second: Ring_3
+  - first:
+      213: 7168475762293652931
+    second: Ring_4
+  - first:
+      213: -2115420830505224574
+    second: Ring_5
+  - first:
+      213: 802879136454210966
+    second: Ring_6
+  - first:
+      213: -6914084895347813649
+    second: Ring_7
+  - first:
+      213: -5480468504741716077
+    second: Ring_8
+  - first:
+      213: -2528051119814327294
+    second: Ring_9
+  - first:
+      213: 1153278037751351165
+    second: Ring_10
+  - first:
+      213: -2201862278539263975
+    second: Ring_11
+  - first:
+      213: 23584326800434632
+    second: Ring_12
+  - first:
+      213: -7179288559180606696
+    second: Ring_13
+  - first:
+      213: -2205157694857922683
+    second: Ring_14
+  - first:
+      213: -131369055084144854
+    second: Ring_15
+  - first:
+      213: -575155370584653370
+    second: Ring_16
+  - first:
+      213: 9018304868546886144
+    second: Ring_17
+  - first:
+      213: -5171988948021587854
+    second: Ring_18
+  - first:
+      213: -7798430623154920118
+    second: Ring_19
+  - first:
+      213: 1891788749979711558
+    second: Ring_20
+  - first:
+      213: 3231028609667672001
+    second: Ring_21
+  - first:
+      213: 8600428080114567234
+    second: Ring_22
+  - first:
+      213: 6963772231916330116
+    second: Ring_23
+  - first:
+      213: -1412607297335059009
+    second: Ring_24
+  - first:
+      213: 7845987341181534459
+    second: Ring_25
+  - first:
+      213: 6106977814324797040
+    second: Ring_26
+  - first:
+      213: -6345958079230104290
+    second: Ring_27
+  - first:
+      213: 5778515264242307154
+    second: Ring_28
+  - first:
+      213: -5339909947723717418
+    second: Ring_29
+  - first:
+      213: -3673113815009815638
+    second: Ring_30
+  - first:
+      213: -5512384134514566226
+    second: Ring_31
+  - first:
+      213: 3275805373080368544
+    second: Ring_32
+  - first:
+      213: 3383716124807468779
+    second: Ring_33
+  - first:
+      213: 2893623668736114159
+    second: Ring_34
+  - first:
+      213: 4388462385254732351
+    second: Ring_35
+  - first:
+      213: 8878073567403224334
+    second: Ring_36
+  - first:
+      213: -957975304108456187
+    second: Ring_37
+  - first:
+      213: -6381000650282845048
+    second: Ring_38
+  - first:
+      213: 6015194711678853546
+    second: Ring_39
+  - first:
+      213: -4951889411818613234
+    second: Ring_40
+  - first:
+      213: -5671247099954198652
+    second: Ring_41
+  - first:
+      213: -2352169292272039944
+    second: Ring_42
+  - first:
+      213: 4205893736291280769
+    second: Ring_43
+  - first:
+      213: -6275495414023812923
+    second: Ring_44
+  - first:
+      213: 8790886861488232061
+    second: Ring_45
+  - first:
+      213: -639260906530012057
+    second: Ring_46
+  - first:
+      213: 1918748519605325470
+    second: Ring_47
+  - first:
+      213: 2284290293874900530
+    second: Ring_48
+  - first:
+      213: -3579394177914360155
+    second: Ring_49
+  - first:
+      213: -7638131231434456397
+    second: Ring_50
+  - first:
+      213: -1285245944617766016
+    second: Ring_51
+  - first:
+      213: 7429132482534359833
+    second: Ring_52
+  - first:
+      213: 4673854544666213795
+    second: Ring_53
+  - first:
+      213: 823134124594608195
+    second: Ring_54
+  - first:
+      213: 6094991802278417964
+    second: Ring_55
+  - first:
+      213: -9166556971503561888
+    second: Ring_56
+  - first:
+      213: -3504239262345150199
+    second: Ring_57
+  - first:
+      213: -8476013733085980142
+    second: Ring_58
+  - first:
+      213: -8800042107523786812
+    second: Ring_59
+  - first:
+      213: 6544341825963334614
+    second: Ring_60
+  - first:
+      213: 2677870952624400227
+    second: Ring_61
+  - first:
+      213: 5019571338544415657
+    second: Ring_62
+  - first:
+      213: -1616867999668669390
+    second: Ring_63
+  - first:
+      213: -7602690651629435233
+    second: Ring_64
+  - first:
+      213: 1037818463151211328
+    second: Ring_65
+  - first:
+      213: -8974516924477158081
+    second: Ring_66
+  - first:
+      213: 724204607932531200
+    second: Ring_67
+  - first:
+      213: 788774485988011045
+    second: Ring_68
+  - first:
+      213: -6973843875324603493
+    second: Ring_69
+  - first:
+      213: 5067995258685802874
+    second: Ring_70
+  - first:
+      213: -7056469377353052614
+    second: Ring_71
+  - first:
+      213: 6213356461943226230
+    second: Ring_72
+  - first:
+      213: -783640849425407276
+    second: Ring_73
+  - first:
+      213: 516552399406758899
+    second: Ring_74
+  - first:
+      213: -3575913129806142034
+    second: Ring_75
+  - first:
+      213: -6811800016016780476
+    second: Ring_76
+  - first:
+      213: -494055366383455040
+    second: Ring_77
+  - first:
+      213: 4595282346505114175
+    second: Ring_78
+  - first:
+      213: -5558643390987836420
+    second: Ring_79
+  - first:
+      213: -5741782546262797932
+    second: Ring_80
+  - first:
+      213: -2607660625889117875
+    second: Ring_81
+  - first:
+      213: 6622697278887618684
+    second: Ring_82
+  - first:
+      213: 2444593542401239380
+    second: Ring_83
+  - first:
+      213: 1529696926875999379
+    second: Ring_84
+  - first:
+      213: -3560872046062381172
+    second: Ring_85
+  - first:
+      213: -8132828591087396247
+    second: Ring_86
+  - first:
+      213: -3894390003082299463
+    second: Ring_87
+  - first:
+      213: 321319114808345215
+    second: Ring_88
+  - first:
+      213: 1712430471514242843
+    second: Ring_89
+  - first:
+      213: 7061162931921776390
+    second: Ring_90
+  - first:
+      213: -276229426539262687
+    second: Ring_91
+  - first:
+      213: -5375453434870057231
+    second: Ring_92
+  - first:
+      213: 1197690727742258903
+    second: Ring_93
+  - first:
+      213: 1068714107037539530
+    second: Ring_94
+  - first:
+      213: -2720181940730283733
+    second: Ring_95
+  - first:
+      213: 1854070791276407568
+    second: Ring_96
+  - first:
+      213: -5341898536138909766
+    second: Ring_97
+  - first:
+      213: 5560852319058970098
+    second: Ring_98
+  - first:
+      213: 3942515358019146941
+    second: Ring_99
+  - first:
+      213: 6032961439995061669
+    second: Ring_100
+  - first:
+      213: 3562382981689861679
+    second: Ring_101
+  - first:
+      213: -7389083203650181032
+    second: Ring_102
+  - first:
+      213: -1715413222946421514
+    second: Ring_103
+  - first:
+      213: 4154299113919742687
+    second: Ring_104
+  - first:
+      213: -6402298836626295548
+    second: Ring_105
+  - first:
+      213: 4002561288186638447
+    second: Ring_106
+  - first:
+      213: 876811183484247753
+    second: Ring_107
+  - first:
+      213: -6965658166415310895
+    second: Ring_108
+  - first:
+      213: -1705081795002394927
+    second: Ring_109
+  - first:
+      213: -1615240460773994448
+    second: Ring_110
+  - first:
+      213: -3954887551911073896
+    second: Ring_111
+  - first:
+      213: 7492423741915839734
+    second: Ring_112
+  - first:
+      213: -121951658593473780
+    second: Ring_113
+  - first:
+      213: 4532446752863517466
+    second: Ring_114
+  - first:
+      213: 4390669325503518562
+    second: Ring_115
+  - first:
+      213: 3346039592895041326
+    second: Ring_116
+  - first:
+      213: -6644783872852326631
+    second: Ring_117
+  - first:
+      213: 2703905606330350418
+    second: Ring_118
+  - first:
+      213: 114474612944120581
+    second: Ring_119
+  - first:
+      213: 3746799066902602071
+    second: Ring_120
+  - first:
+      213: -5089236678639378629
+    second: Ring_121
+  - first:
+      213: -7827447423494672248
+    second: Ring_122
+  - first:
+      213: 6723152300367560223
+    second: Ring_123
+  - first:
+      213: -2504295998953143075
+    second: Ring_124
+  - first:
+      213: 5849541185224787217
+    second: Ring_125
+  - first:
+      213: -3719132569885937485
+    second: Ring_126
+  - first:
+      213: 624651100707843072
+    second: Ring_127
+  - first:
+      213: 3878511804380810749
+    second: Ring_128
+  - first:
+      213: -1691016337761620102
+    second: Ring_129
+  - first:
+      213: -3472407705936842901
+    second: Ring_130
+  - first:
+      213: -7940126959467533531
+    second: Ring_131
+  - first:
+      213: 4936560226437969014
+    second: Ring_132
+  - first:
+      213: -935412722653260619
+    second: Ring_133
+  - first:
+      213: -4885367593783409237
+    second: Ring_134
+  - first:
+      213: -5819168425168027764
+    second: Ring_135
+  - first:
+      213: -5029862209731051137
+    second: Ring_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e3ca0612fdf684f8f3b73f0f201196
+      internalID: -1936012194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be63ee7f2dc3e2e40973acd4b31fb25e
+      internalID: 752961870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad22926dc6359848aabed9b811ec2d4
+      internalID: -1541153135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34217f58e44e14d45bd509b67d59fdc7
+      internalID: -385265673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58efaa9162b3fb64ca65745532b80b9c
+      internalID: -301314936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88046128aa50aaa408b080ba56760784
+      internalID: -1433549961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_6
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ea47f0076aa140991399b119c6759
+      internalID: -1698107640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ring_7
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8c99806e0d7d4882d4a9c1c577df1
+      internalID: -969777108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1c5091ff30810c64f8d5d963d45760a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ring_0: -1936012194
+      Ring_1: 752961870
+      Ring_2: -1541153135
+      Ring_3: -385265673
+      Ring_4: -301314936
+      Ring_5: -1433549961
+      Ring_6: -1698107640
+      Ring_7: -969777108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
