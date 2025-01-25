@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 65ada5a0562279742929b1fbcc1899f7
+guid: dc9c2b5eb56abde418e3768a31de668b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -160047600158023552
-    second: TreeBranch1_0
+      213: 4370654060886098268
+    second: mountain9_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TreeBranch1_0
+      name: mountain9_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 201
-        width: 448
-        height: 136
+        x: 0
+        y: 0
+        width: 1092
+        height: 1377
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0806d6d3e8567cdf0800000000000000
-      internalID: -160047600158023552
+      spriteID: c510c3f26bea7ac30800000000000000
+      internalID: 4370654060886098268
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TreeBranch1_0: -160047600158023552
+      mountain9_0: 4370654060886098268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

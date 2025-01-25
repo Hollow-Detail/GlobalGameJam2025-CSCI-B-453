@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 42cbdf6358ffe87459dbea0b94feedba
+guid: 5a3ec9ecb84635446bb691da3bfb46be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1710808309952660870
-    second: mountain4_0
+      213: 5874259289263336728
+    second: TreeBranch2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mountain4_0
+      name: TreeBranch2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1308
-        height: 759
+        y: 197
+        width: 447
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7a3c7608ecf148e0800000000000000
-      internalID: -1710808309952660870
+      spriteID: 81d641f43bf858150800000000000000
+      internalID: 5874259289263336728
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TreeBranch2_0: 5874259289263336728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

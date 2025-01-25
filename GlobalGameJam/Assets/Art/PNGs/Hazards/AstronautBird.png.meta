@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: dc9c2b5eb56abde418e3768a31de668b
+guid: 0db83ccd1d6956446b5553b5ef65763a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4370654060886098268
-    second: mountain9_0
+      213: -452686248277796954
+    second: AstronautBird_0
+  - first:
+      213: 7454916214812824592
+    second: AstronautBird_1
+  - first:
+      213: -209511484199392049
+    second: AstronautBird_2
+  - first:
+      213: -8264376361879012624
+    second: AstronautBird_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +105,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mountain9_0
+      name: AstronautBird_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1092
-        height: 1377
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c510c3f26bea7ac30800000000000000
-      internalID: 4370654060886098268
+      spriteID: 06b94b78e52f3d0449c828b4a68180f8
+      internalID: -1082320672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautBird_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d80b7ddb8b112943a5aaeb59ade4cdb
+      internalID: 323136973
       vertices: []
       indices: 
       edges: []
@@ -138,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0fe2e6ba3982a8943b3131a76fe665fc
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +165,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AstronautBird_0: -1082320672
+      AstronautBird_1: 323136973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

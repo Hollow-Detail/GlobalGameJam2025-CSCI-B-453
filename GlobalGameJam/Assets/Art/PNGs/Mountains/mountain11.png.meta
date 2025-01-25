@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: cae16a368fc970f488d61b23cb1aad96
+guid: ef0b0e911afa3334680570e183d692c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2866048381903331244
-    second: mountain10_0
-  - first:
-      213: 1095746079980941327
-    second: mountain10_1
+      213: -4933631835994328764
+    second: mountain11_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mountain10_0
+      name: mountain11_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1191
-        height: 1332
+        width: 842
+        height: 2323
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 450a19f7e20c938d0800000000000000
-      internalID: -2866048381903331244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mountain10_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 67
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f007a45114fd43f00800000000000000
-      internalID: 1095746079980941327
+      spriteID: 441fff21cf7388bb0800000000000000
+      internalID: -4933631835994328764
       vertices: []
       indices: 
       edges: []
@@ -172,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mountain11_0: -4933631835994328764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

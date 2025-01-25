@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c1cbaaa43a88644f89fe9566ac94688
+guid: 1eaf4ec5f2bae3646967db7f03729aad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6873161333234046989
-    second: mountain8_0
+      213: -7072550237891788003
+    second: Acron_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mountain8_0
+      name: Acron_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1578
-        height: 1368
+        x: 112
+        y: 71
+        width: 288
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d089d5721df526f50800000000000000
-      internalID: 6873161333234046989
+      spriteID: d130b56d70149dd90800000000000000
+      internalID: -7072550237891788003
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Acron_0: -7072550237891788003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
