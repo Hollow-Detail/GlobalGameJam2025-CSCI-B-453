@@ -6,7 +6,7 @@ public class GameManager : Singleton<GameManager>
     [field: SerializeField] public BubblePop bubblePop { get; private set; }
     [field: SerializeField] public BubbleMovement currentBubble { get; private set; }
     [SerializeField] private GameObject startGameCamera, gameOverCamera, followCamera, startGameCanvas;
-    
+    private bool isGameStarted = false;
     public event EventHandler OnStartGame;
 
     private void Start()
@@ -17,7 +17,7 @@ public class GameManager : Singleton<GameManager>
 
     private void Update()
     {
-        if (Input.GetAxis("Horizontal") != 0)
+        if (Input.GetAxis("Horizontal") != 0 && !isGameStarted)
         {
             StartGame();
         }
@@ -34,6 +34,7 @@ public class GameManager : Singleton<GameManager>
         startGameCanvas.gameObject.SetActive(false);
         followCamera.SetActive(true);
         startGameCamera.SetActive(false);
+        isGameStarted = true;
     }
 
 }

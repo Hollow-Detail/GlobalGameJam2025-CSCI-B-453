@@ -11,7 +11,7 @@ public class State : MonoBehaviour
 
     protected Rigidbody2D rb => core.rb;
     protected Animator animator => core.animator;
-    public bool isComplete { get; protected set; }
+    public bool isComplete { get; protected set; } = false;
 
     protected float stateUptime = 0;
 

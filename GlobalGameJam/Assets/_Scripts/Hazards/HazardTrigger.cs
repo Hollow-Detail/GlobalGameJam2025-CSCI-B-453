@@ -16,4 +16,11 @@ public class HazardTrigger : MonoBehaviour
             hazardToEnable.SetActive(true);
         }
     }
+
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(transform.position, GetComponent<BoxCollider2D>().size);
+    }
 }

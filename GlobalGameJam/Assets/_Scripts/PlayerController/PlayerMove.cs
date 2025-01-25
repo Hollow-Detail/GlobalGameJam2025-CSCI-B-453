@@ -5,6 +5,7 @@ public class PlayerMove : State
     [SerializeField] private BubbleMovement bm;
     public override void DoEnterLogic()
     {
+        base.DoEnterLogic();
         rb.gravityScale = Mathf.Abs(bm.gravity) * -1;
         rb.linearDamping = 0;
     }

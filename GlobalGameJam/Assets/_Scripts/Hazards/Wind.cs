@@ -25,4 +25,10 @@ public class Wind : MonoBehaviour
             bubbleMovement.rb.AddForce(direction * windSpeed, ForceMode2D.Force);
         }
     }
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(transform.position, GetComponent<BoxCollider2D>().size);
+    }
 }

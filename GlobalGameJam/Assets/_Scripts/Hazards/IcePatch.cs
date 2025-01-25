@@ -13,14 +13,15 @@ public class IcePatch : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            timerActive = false;
+            
             GameManager.Instance.currentBubble.FreezeBubble();
+            timerActive = false;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out BubbleMovement bubbleMovement))
+        if (collision.CompareTag("Player"))
         {
             timer = freezeTime;
             timerActive = true;
@@ -29,7 +30,7 @@ public class IcePatch : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out BubbleMovement bubbleMovement))
+        if (collision.CompareTag("Player"))
         {
             timerActive = false;
         }

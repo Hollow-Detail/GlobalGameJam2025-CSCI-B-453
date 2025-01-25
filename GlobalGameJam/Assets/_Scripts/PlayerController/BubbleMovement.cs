@@ -15,7 +15,6 @@ public class BubbleMovement : StateMachineCore
     [Header("Bubble Movement Variables")]
     [SerializeField] public float popDrag;
     [SerializeField] public float maxYSpeed, maxYSpeedIce, maxXSpeed, maxXSpeedIce, gravity, frozenGravity, acceleration, decelerationScale;
-    [SerializeField] private float freezeTime;
     private float freezeTimer;
     public bool inWind, inIce;
     void Awake()

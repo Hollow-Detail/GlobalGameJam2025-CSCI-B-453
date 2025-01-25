@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1eaf4ec5f2bae3646967db7f03729aad
+guid: ef0b0e911afa3334680570e183d692c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7072550237891788003
-    second: Acron_0
+      213: -4933631835994328764
+    second: mountain11_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Acron_0
+      name: mountain11_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 71
-        width: 288
-        height: 364
+        x: 0
+        y: 0
+        width: 842
+        height: 2323
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d130b56d70149dd90800000000000000
-      internalID: -7072550237891788003
+      spriteID: 441fff21cf7388bb0800000000000000
+      internalID: -4933631835994328764
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Acron_0: -7072550237891788003
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
