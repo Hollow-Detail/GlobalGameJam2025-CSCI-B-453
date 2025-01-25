@@ -16,8 +16,6 @@ public class BubblePop : MonoBehaviour
         {
             popper.Pop();
             OnBubblePop?.Invoke(this, EventArgs.Empty);
-            
-            Destroy(gameObject);
         }
     }
 }
