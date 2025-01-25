@@ -8,20 +8,20 @@ public class Parallax : MonoBehaviour
     private GameObject cam;
     [SerializeField] private float parallaxeffect;
 
-    void Start()
+    void OnEnable()
     {
-        startpos = transform.position.x;
+        startpos = transform.position.y + 10;
         cam = Camera.main.gameObject;
         //cam = GameObject.FindGameObjectWithTag("Player");
-        length = GetComponent<SpriteRenderer>().bounds.size.x;
+        length = GetComponent<SpriteRenderer>().bounds.size.y;
     }
 
     void Update()
     {
-        float temp = (cam.transform.position.x * (1 - parallaxeffect));
-        float dist = (cam.transform.position.x * parallaxeffect);
+        float temp = (cam.transform.position.y * (1 - parallaxeffect));
+        float dist = (cam.transform.position.y * parallaxeffect);
 
-        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x, startpos + dist, transform.position.z);
 
         if (temp > startpos + length)
             startpos += length;
