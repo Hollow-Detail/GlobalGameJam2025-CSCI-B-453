@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7cdb7e31900bf47aae57597bd342a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bm: {fileID: 0}
+  bm: {fileID: 5240733555521641760}
 --- !u!1 &5296502592425903977
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,16 +155,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105e94e373582e4448b73758f91302ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 7779222427918801805}
   animator: {fileID: 0}
+  <moveState>k__BackingField: {fileID: 146982088757014673}
+  <frozenState>k__BackingField: {fileID: 790254597715550810}
+  <idleState>k__BackingField: {fileID: 2768299859492126294}
+  popDrag: 10
   maxYSpeed: 4
   maxYSpeedIce: 2
   maxXSpeed: 3
   maxXSpeedIce: 2
   gravity: 0.5
+  frozenGravity: 1
   acceleration: 5
   decelerationScale: 1.5
-  popDrag: 10
   freezeTime: 0
   inWind: 0
   inIce: 0
@@ -252,7 +256,7 @@ Transform:
   m_GameObject: {fileID: 5543616731790074962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.413, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -401,6 +405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952bea045f64ce42b42f02808c76ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bm: {fileID: 5240733555521641760}
+  maxFallSpeed: 7
+  frozenDuration: 1.5
 --- !u!1 &8701841576470367146
 GameObject:
   m_ObjectHideFlags: 0
