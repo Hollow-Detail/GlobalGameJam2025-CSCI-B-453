@@ -6,11 +6,16 @@ public class Parallax : MonoBehaviour
 {
     private float length, startpos;
     private GameObject cam;
-    [SerializeField] private float parallaxeffect;
+    /// <summary>
+    /// Values greater than 0 will make the object move slower relative to the camera (further away)
+    /// Values less than 0 will make the object move faster realtive to the camera (foreground)
+    /// </summary>
+    [SerializeField] private float parallaxeffect; 
+    
 
-    void OnEnable()
+    void Start()
     {
-        startpos = transform.position.y + 10;
+        startpos = transform.position.y;
         cam = Camera.main.gameObject;
         //cam = GameObject.FindGameObjectWithTag("Player");
         length = GetComponent<SpriteRenderer>().bounds.size.y;
@@ -24,8 +29,8 @@ public class Parallax : MonoBehaviour
         transform.position = new Vector3(transform.position.x, startpos + dist, transform.position.z);
 
         if (temp > startpos + length)
-            startpos += length;
+            startpos += length * 2;
         else if (temp < startpos - length) 
-            startpos -= length;
+            startpos -= length * 2;
     }
 }
