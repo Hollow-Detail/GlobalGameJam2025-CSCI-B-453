@@ -5,6 +5,14 @@ public class Wind : MonoBehaviour
 {
     [SerializeField] private bool isRight = true;
     [SerializeField] private float windSpeed = 5f;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out BubbleMovement bubbleMovement))
+        {
+            SoundManager.Instance?.PlaySound(SoundManager.Sounds.Wind);
+        }
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.TryGetComponent(out BubbleMovement bubbleMovement))

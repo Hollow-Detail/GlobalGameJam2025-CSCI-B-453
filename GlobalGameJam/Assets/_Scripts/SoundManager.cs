@@ -16,7 +16,8 @@ public class SoundManager : SingletonPersistent<SoundManager>
 
     public enum Sounds
     {
-        Pop
+        Pop,
+        Wind
     }
 
     //Use this for sounds that may be repeated very quickly Ex: a bunch of towers shooting

@@ -11,8 +11,16 @@ public class BubblePop : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision");
         if (collision.gameObject.TryGetComponent(out IPopper popper))
+        {
+            popper.Pop();
+            OnBubblePop?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.gameObject.TryGetComponent(out IPopper popper))
         {
             popper.Pop();
             OnBubblePop?.Invoke(this, EventArgs.Empty);

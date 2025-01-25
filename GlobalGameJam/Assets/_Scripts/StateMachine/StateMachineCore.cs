@@ -7,7 +7,7 @@ public abstract class StateMachineCore : MonoBehaviour
     /// <summary>
     /// Dictonary used to hold states that are NOT a part of a heirarchical state machine.
     /// </summary>
-    public Rigidbody rb;
+    public Rigidbody2D rb;
     public Animator animator;
     public StateMachine stateMachine { get; private set; }
     /// <summary>
@@ -38,12 +38,13 @@ public abstract class StateMachineCore : MonoBehaviour
     {
         // Template for classes that inherit from this class
         // put the following code inside of your Update() function
-
+    
         //if(stateMachine.currentState.isComplete)
         //{
             //Default state transition if the state completes itself
         //}
-        //stateMachine.currentState.DoUpdateBranch();
+        
+        // stateMachine.currentState.DoUpdateBranch();
     }
 
     private void FixedUpdate()

@@ -5,17 +5,23 @@ using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
-public class BubbleMovement : MonoBehaviour
+public class BubbleMovement : StateMachineCore
 {
-    [SerializeField] private float maxYSpeed, maxXSpeed, gravity, acceleration, decelerationScale;
-    [SerializeField] private float popDrag;
+    [Header("States")] 
+    [field:SerializeField] public State moveState { get; private set; }
+    [field:SerializeField] public State frozenState { get; private set; }
+    [field:SerializeField] public State idleState { get; private set; }
 
-    private bool isMoving, inWind;
-    public Rigidbody2D rb { get; private set; }
-
+    [Header("Bubble Movement Variables")]
+    [SerializeField] public float popDrag;
+    [SerializeField] public float maxYSpeed, maxYSpeedIce, maxXSpeed, maxXSpeedIce, gravity, frozenGravity, acceleration, decelerationScale;
+    [SerializeField] private float freezeTime;
+    private float freezeTimer;
+    public bool inWind, inIce;
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        SetupInstances();
+        stateMachine.SetState(idleState);
     }
 
     private void Start()
@@ -23,6 +29,7 @@ public class BubbleMovement : MonoBehaviour
         // TODO: Clean up subscriptions
         GameManager.Instance.bubblePop.OnBubblePop += OnBubblePop;
         GameManager.Instance.OnStartGame += OnStartGame;
+
     }
 
     private void OnBubblePop(object sender, EventArgs args)
@@ -30,29 +37,23 @@ public class BubbleMovement : MonoBehaviour
         rb.gravityScale = 0;
         rb.linearDamping = popDrag;
         SoundManager.Instance?.PlayEntireSound(SoundManager.Sounds.Pop);
+        stateMachine.SetState(idleState);
     }
     
     private void OnStartGame(object sender, EventArgs args)
     {
-        rb.gravityScale = Mathf.Abs(gravity) * -1;
-        rb.linearDamping = 0;
-        isMoving = true;
+        stateMachine.SetState(moveState);
     }
 
     // Update is called once per frame
     void Update()
     {
+        stateMachine.currentState?.DoUpdateBranch();
         
-        // Only clamp X speed if not in a wind tunnel
-        
-        if (!inWind)
+        if (stateMachine.currentState == frozenState && stateMachine.currentState.isComplete)
         {
-            rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocityX, -maxXSpeed, maxXSpeed),rb.linearVelocityY);
+            stateMachine.SetState(moveState);
         }
-        
-        
-        rb.linearVelocity = new Vector2(rb.linearVelocityX,Mathf.Clamp(rb.linearVelocityY, 0, maxYSpeed));
-        
         
         // DEBUG
         if (Input.GetKeyDown(KeyCode.R))
@@ -62,33 +63,39 @@ public class BubbleMovement : MonoBehaviour
         
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        if (!isMoving) return;
-        
-        
-        Vector2 playerInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        // Move Bubble Horizontally
-        if (playerInput.x != 0f)
-        {
-            rb.AddForce(new Vector2(playerInput.x * acceleration, 0), ForceMode2D.Force);
-        }
-        // Decel Bubble when no input
-        else
-        {
-            rb.AddForce(new Vector2(-rb.linearVelocityX * decelerationScale, 0f), ForceMode2D.Force);
-        }
+        stateMachine.currentState?.DoFixedUpdateBranch();
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent(out Wind wind))
         {
             inWind = true;
         }
-        else
+        
+        if (other.TryGetComponent(out IcePatch icePatch))
+        {
+            inIce = true;
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out Wind wind))
         {
             inWind = false;
         }
+        
+        if (other.TryGetComponent(out IcePatch icePatch))
+        {
+            inIce = false;
+        }
+    }
+
+    public void FreezeBubble()
+    {
+        stateMachine.SetState(frozenState);
     }
 }
