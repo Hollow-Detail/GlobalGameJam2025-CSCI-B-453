@@ -8,13 +8,15 @@ public class BubbleMovement : MonoBehaviour
 {
     [SerializeField] private float maxYSpeed, maxXSpeed, gravity, acceleration, decelerationScale;
     [SerializeField] private float popDrag;
- 
+
+    private bool isMoving;
     private Rigidbody2D rb;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = Mathf.Abs(gravity) * -1;
+        // rb.gravityScale = Mathf.Abs(gravity) * -1;
+        
     }
 
     private void Start()
@@ -44,6 +46,9 @@ public class BubbleMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!isMoving) return;
+        
+        
         Vector2 playerInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         // Move Bubble Horizontally
         if (playerInput.x != 0f)
