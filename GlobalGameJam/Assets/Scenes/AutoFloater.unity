@@ -390,7 +390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxeffect: 0.05
-  offset: 0
 --- !u!1 &319164289
 GameObject:
   m_ObjectHideFlags: 0
