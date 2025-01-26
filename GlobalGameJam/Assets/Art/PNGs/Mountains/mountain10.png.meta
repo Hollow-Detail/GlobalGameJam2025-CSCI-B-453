@@ -137,33 +137,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: mountain10_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 67
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f007a45114fd43f00800000000000000
-      internalID: 1095746079980941327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0f7b6379439b81948a116252f9a81074
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +152,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       mountain10_0: -2866048381903331244
-      mountain10_1: 1095746079980941327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

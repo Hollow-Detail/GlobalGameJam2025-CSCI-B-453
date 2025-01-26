@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 3d3e68e5379a6764fa9fcb821e93929d
+guid: 7fe905975528d6f46948909f889e154c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4579556511493083371
-    second: tree3_0
+      213: 6423806749927177598
+    second: Earth_0
   - first:
-      213: 8926537203321239021
-    second: tree3_1
+      213: -3086602609980112195
+    second: Earth_1
   - first:
-      213: 117158744961322222
-    second: tree3_2
-  - first:
-      213: 7743864127062587644
-    second: tree3_3
-  - first:
-      213: 3985237681422740717
-    second: tree3_4
+      213: 6924314980402435031
+    second: Earth_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,40 +102,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tree3_0
+      name: Earth_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1089
-        height: 2252
+        width: 1024
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 51fa0a7cd952270c0800000000000000
-      internalID: -4579556511493083371
+      spriteID: 9706e0b71f31218428c1f63de1d2a4b4
+      internalID: -406250480
       vertices: []
       indices: 
       edges: []
@@ -150,7 +131,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b8eb29111c46eb7498fbbf7ef0509fe1
+    spriteID: 2ec62a6eb8957e846ad3d7c01d0be7dd
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +141,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tree3_0: -4579556511493083371
+      Earth_0: -406250480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
