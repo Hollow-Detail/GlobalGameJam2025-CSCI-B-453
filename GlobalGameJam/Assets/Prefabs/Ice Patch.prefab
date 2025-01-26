@@ -9713,7 +9713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2999179959e2a448a5d61826301c886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freezeTime: 0.6
+  freezeTime: 0.5
 --- !u!58 &896883192898071440
 CircleCollider2D:
   m_ObjectHideFlags: 0

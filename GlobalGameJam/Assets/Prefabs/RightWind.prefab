@@ -14597,7 +14597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRight: 1
-  windSpeed: 5
+  windSpeed: 10
 --- !u!1 &4395201582314628315
 GameObject:
   m_ObjectHideFlags: 0
