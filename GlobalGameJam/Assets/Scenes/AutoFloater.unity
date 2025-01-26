@@ -2318,6 +2318,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4996349864622772533, guid: 3770a68aae5b3d446abc0d7c2a12c665, type: 3}
   m_PrefabInstance: {fileID: 1299033258}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &251419223 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7352007769528015995, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
+  m_PrefabInstance: {fileID: 2226086152994022905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &259916706
 GameObject:
   m_ObjectHideFlags: 0
@@ -19870,13 +19875,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 790254597715550810, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
+      propertyPath: sr
+      value: 
+      objectReference: {fileID: 251419223}
+    - target: {fileID: 790254597715550810, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
+      propertyPath: frozenSprite
+      value: 
+      objectReference: {fileID: 5401570498604863991, guid: 05d008a93cb36cb498f66355eb70c0de, type: 3}
+    - target: {fileID: 790254597715550810, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
+      propertyPath: regularSprite
+      value: 
+      objectReference: {fileID: -5712959122012955994, guid: 3a7ca624c475e864284035065f52e7d4, type: 3}
     - target: {fileID: 1011133519420971137, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011133519420971137, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 177.79
+      value: 271.1
       objectReference: {fileID: 0}
     - target: {fileID: 1011133519420971137, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19910,13 +19927,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5240733555521641760, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
+      propertyPath: bubbleMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 657cee48cfa316a4eab5e7f20275bdcb, type: 2}
     - target: {fileID: 5296502592425903977, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
       propertyPath: m_Name
       value: Bubble
-      objectReference: {fileID: 0}
-    - target: {fileID: 9190932425863440380, guid: 79b3bdf313a3e7848964e2b9be3c0260, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
