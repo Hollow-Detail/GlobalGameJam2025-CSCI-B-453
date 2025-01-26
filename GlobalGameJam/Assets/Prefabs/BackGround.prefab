@@ -97,6 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4778153935081501667}
   - component: {fileID: 2255511975667402927}
+  - component: {fileID: 8996437735922089557}
   m_Layer: 0
   m_Name: cloud4_0 (2)
   m_TagString: Untagged
@@ -174,6 +175,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8996437735922089557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330636443487541957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &764120109743261277
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +287,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8449558650708202716}
   - component: {fileID: 6055519179136329987}
-  - component: {fileID: 7826066753627114519}
   m_Layer: 0
   m_Name: Forth - Earth
   m_TagString: Untagged
@@ -325,21 +340,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_SortAtRoot: 0
---- !u!114 &7826066753627114519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922603148638172966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &1017036073536175505
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4382104336812266646}
   - component: {fileID: 8804611722136177839}
+  - component: {fileID: 52132459568170322}
   m_Layer: 0
   m_Name: cloud15_0 (3)
   m_TagString: Untagged
@@ -514,6 +515,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &52132459568170322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226382970212414284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &1329035450327212888
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8061972011537988700}
   - component: {fileID: 1137120160542429953}
+  - component: {fileID: 8687038215006934514}
   m_Layer: 0
   m_Name: cloud4_0
   m_TagString: Untagged
@@ -601,6 +618,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8687038215006934514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329035450327212888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &1550597988239607088
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1814755405514382021}
   - component: {fileID: 906040473493885208}
+  - component: {fileID: 8024663294497125906}
   m_Layer: 0
   m_Name: cloud2_0 (3)
   m_TagString: Untagged
@@ -825,6 +858,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8024663294497125906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749335747381601541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &1877752280036002197
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242607234835046654}
   - component: {fileID: 5100453219185262336}
+  - component: {fileID: 2014310264405153066}
   m_Layer: 0
   m_Name: cloud15_0
   m_TagString: Untagged
@@ -912,6 +961,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2014310264405153066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877752280036002197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &2185661042659479963
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7906155450694674218}
   - component: {fileID: 6914953022321948495}
+  - component: {fileID: 8739722213970338571}
   m_Layer: 0
   m_Name: cloud17_0 (1)
   m_TagString: Untagged
@@ -999,6 +1064,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8739722213970338571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2185661042659479963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &2212016999126476637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3445049806366653741}
   - component: {fileID: 6771048863237503037}
+  - component: {fileID: 4665277733315839174}
   m_Layer: 0
   m_Name: cloud6_0 (2)
   m_TagString: Untagged
@@ -1086,6 +1167,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4665277733315839174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212016999126476637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &2260929840748159047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1192,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7391943196219008448}
   - component: {fileID: 7773830660725415285}
-  - component: {fileID: 3362904760925691504}
   m_Layer: 0
   m_Name: Zero - Backyard
   m_TagString: Untagged
@@ -1131,21 +1226,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_SortAtRoot: 0
---- !u!114 &3362904760925691504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2260929840748159047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &2303286124860028438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9046151841247552357}
   - component: {fileID: 7044757917884704424}
+  - component: {fileID: 7872919918015804324}
   m_Layer: 0
   m_Name: cloud15_0 (2)
   m_TagString: Untagged
@@ -1233,6 +1314,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7872919918015804324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303286124860028438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &2685613957975617072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,7 +1426,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4212011345551034272}
   - component: {fileID: 6514721976231175800}
-  - component: {fileID: 2232107980423462573}
   m_Layer: 0
   m_Name: Third - Clouds
   m_TagString: Untagged
@@ -1365,21 +1460,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_SortAtRoot: 0
---- !u!114 &2232107980423462573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742798395487212169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &2773690596115554742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,7 +1470,6 @@ GameObject:
   m_Component:
   - component: {fileID: 557902949199291668}
   - component: {fileID: 8242751579415897711}
-  - component: {fileID: 4828187918970928346}
   m_Layer: 0
   m_Name: First - Trees and Mountains
   m_TagString: Untagged
@@ -1440,21 +1519,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 4
   m_SortAtRoot: 0
---- !u!114 &4828187918970928346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2773690596115554742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &2983355819266831806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,6 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5487811944625479718}
   - component: {fileID: 4641000246488197908}
+  - component: {fileID: 273712306307408181}
   m_Layer: 0
   m_Name: cloud6_0
   m_TagString: Untagged
@@ -1542,6 +1607,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &273712306307408181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983355819266831806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &2985994302137350873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2776122100052934360}
   - component: {fileID: 4616706278818731343}
+  - component: {fileID: 3023475045733260929}
   m_Layer: 0
   m_Name: cloud4_0 (1)
   m_TagString: Untagged
@@ -1629,6 +1710,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3023475045733260929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985994302137350873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &4144674586509295751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,7 +1909,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9124917359437459815}
   - component: {fileID: 592344712843431318}
-  - component: {fileID: 832257161372943933}
   m_Layer: 0
   m_Name: Second - Skyscrapers and Clouds
   m_TagString: Untagged
@@ -1848,21 +1943,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_SortAtRoot: 0
---- !u!114 &832257161372943933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4642661310171826947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &4785985142624823327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,7 +1953,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7193875502549340885}
   - component: {fileID: 9044838307521569859}
-  - component: {fileID: 8762428051471485401}
   m_Layer: 0
   m_Name: Space - Stars
   m_TagString: Untagged
@@ -1909,21 +1988,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
---- !u!114 &8762428051471485401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4785985142624823327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxeffect: 0
-  isLooping: 0
-  destroyAfterUse: 1
 --- !u!1 &4795673733449838066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4338595085215026600}
   - component: {fileID: 6578710593952279463}
+  - component: {fileID: 449838194441089985}
   m_Layer: 0
   m_Name: cloud6_0 (3)
   m_TagString: Untagged
@@ -2185,6 +2250,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &449838194441089985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4847212763807506062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &4856526999249607312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4423833210442595327}
   - component: {fileID: 9093333483968727930}
+  - component: {fileID: 5405552339401576185}
   m_Layer: 0
   m_Name: cloud15_0 (1)
   m_TagString: Untagged
@@ -2446,6 +2527,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5405552339401576185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088719845440181569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &6037570578154473449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5559520021875473400}
   - component: {fileID: 1156456415214873841}
+  - component: {fileID: 7182025363059821263}
   m_Layer: 0
   m_Name: Stars
   m_TagString: Untagged
@@ -2646,7 +2743,7 @@ Transform:
   m_GameObject: {fileID: 6623189828591211950}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.31632137, y: 459.96, z: 0}
+  m_LocalPosition: {x: 0.25, y: 403.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2707,6 +2804,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7182025363059821263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623189828591211950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 1
+  destroyAfterUse: 1
 --- !u!1 &6706833081851509924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3485529102232553699}
   - component: {fileID: 2208862312835499582}
+  - component: {fileID: 4707853605736475346}
   m_Layer: 0
   m_Name: Earth_0
   m_TagString: Untagged
@@ -2794,6 +2907,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4707853605736475346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6706833081851509924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &6710857482917080581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2804,6 +2932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5755238247209124945}
   - component: {fileID: 3016348588181258615}
+  - component: {fileID: 8480799333588579718}
   m_Layer: 0
   m_Name: cloud1_0 (3)
   m_TagString: Untagged
@@ -2881,6 +3010,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8480799333588579718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6710857482917080581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &6776275485375825330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,6 +3122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8196573820207058659}
   - component: {fileID: 6010850658382910427}
+  - component: {fileID: 1776480332298116059}
   m_Layer: 0
   m_Name: cloud6_0 (1)
   m_TagString: Untagged
@@ -3055,6 +3200,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1776480332298116059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898279785510611045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &7348330659280274260
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6949931117358143723}
   - component: {fileID: 6252644725101738832}
+  - component: {fileID: 5366284798309448731}
   m_Layer: 0
   m_Name: cloud4_0 (3)
   m_TagString: Untagged
@@ -3142,6 +3303,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5366284798309448731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348330659280274260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &7367383347422525161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,6 +3415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7707478472804488731}
   - component: {fileID: 3487431886175692200}
+  - component: {fileID: 4794896683128539933}
   m_Layer: 0
   m_Name: cloud2_0 (1)
   m_TagString: Untagged
@@ -3316,6 +3493,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4794896683128539933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549058938190151814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &8460907310740446282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,6 +3518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6164491260564546326}
   - component: {fileID: 5964722218484037535}
+  - component: {fileID: 464633742609638944}
   m_Layer: 0
   m_Name: cloud2_0 (2)
   m_TagString: Untagged
@@ -3403,6 +3596,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &464633742609638944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8460907310740446282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &9194903832487037247
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,6 +3621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8041397696117980196}
   - component: {fileID: 6886178626226547013}
+  - component: {fileID: 4659829438537038333}
   m_Layer: 0
   m_Name: cloud2_0
   m_TagString: Untagged
@@ -3490,3 +3699,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4659829438537038333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194903832487037247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
