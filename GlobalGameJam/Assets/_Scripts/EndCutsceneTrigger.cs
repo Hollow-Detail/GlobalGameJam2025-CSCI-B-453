@@ -5,6 +5,10 @@ public class EndCutsceneTrigger : MonoBehaviour
     public event EventHandler OnEndCutscene;
     void OnTriggerEnter2D(Collider2D other)
     {
-        OnEndCutscene?.Invoke(this, EventArgs.Empty);
+        if (other.CompareTag("Player"))
+        {
+            OnEndCutscene?.Invoke(this, EventArgs.Empty);
+        }
+        
     }
 }

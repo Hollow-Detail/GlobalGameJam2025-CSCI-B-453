@@ -28,6 +28,7 @@ public class PlayerFrozen : State
     {
         base.DoExitLogic();
         sr.sprite = regularSprite;
+        SoundManager.Instance?.PlaySound(SoundManager.Sounds.Thaw);
         thawParticles.Play();
     }
 }
