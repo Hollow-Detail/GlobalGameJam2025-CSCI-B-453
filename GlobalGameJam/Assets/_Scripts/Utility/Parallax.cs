@@ -34,9 +34,15 @@ public class Parallax : MonoBehaviour
         if (numUses == 0)
         {
             if (temp > startpos + length)
+            {
                 startpos += length * 2;
-            else if (temp < startpos - length) 
+                numUses++;
+            }
+            else if (temp < startpos - length)
+            {
                 startpos -= length * 2;
+                numUses++;
+            }
         }
         else
         {
