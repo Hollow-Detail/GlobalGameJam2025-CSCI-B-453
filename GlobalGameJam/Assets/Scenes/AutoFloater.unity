@@ -1933,6 +1933,110 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 31.43, y: 2.1}
   m_EdgeRadius: 0
+--- !u!1 &143971073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143971074}
+  - component: {fileID: 143971076}
+  - component: {fileID: 143971075}
+  m_Layer: 0
+  m_Name: ParallaxStartTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &143971074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143971073}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -10.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4212011345599524551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &143971075
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143971073}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 29.35, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &143971076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143971073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3395972fdb4014aa5db08de39fea42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxObjects:
+  - {fileID: 230255269}
+  - {fileID: 1725382997}
+  - {fileID: 341048025}
+  - {fileID: 596080724}
+  - {fileID: 1687282315}
+  - {fileID: 281823044}
+  - {fileID: 1213199765}
+  - {fileID: 711829391}
+  - {fileID: 802913889}
+  - {fileID: 761180349}
+  - {fileID: 872036167}
+  - {fileID: 1867337689}
 --- !u!4 &151564435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8560941688271592651, guid: f53baac1107a46f41a30b3f86f868668, type: 3}
@@ -7471,6 +7575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230255267}
   - component: {fileID: 230255268}
+  - component: {fileID: 230255269}
   m_Layer: 0
   m_Name: cloud9_0
   m_TagString: Untagged
@@ -7548,6 +7653,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &230255269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230255266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &236263204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7958,6 +8078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 281823042}
   - component: {fileID: 281823043}
+  - component: {fileID: 281823044}
   m_Layer: 0
   m_Name: cloud lion_0
   m_TagString: Untagged
@@ -8035,6 +8156,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &281823044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281823041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &283310489
 GameObject:
   m_ObjectHideFlags: 0
@@ -8594,6 +8730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 341048023}
   - component: {fileID: 341048024}
+  - component: {fileID: 341048025}
   m_Layer: 0
   m_Name: cloud10_0
   m_TagString: Untagged
@@ -8671,6 +8808,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &341048025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341048022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &343764365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15722,6 +15874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 596080722}
   - component: {fileID: 596080723}
+  - component: {fileID: 596080724}
   m_Layer: 0
   m_Name: cloud13_0
   m_TagString: Untagged
@@ -15799,6 +15952,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &596080724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596080721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &600686010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5868863452612035161, guid: 642a1e56ce1b0b442b57005d3a6e44fa, type: 3}
@@ -17255,6 +17423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711829389}
   - component: {fileID: 711829390}
+  - component: {fileID: 711829391}
   m_Layer: 0
   m_Name: cloud7_0
   m_TagString: Untagged
@@ -17332,6 +17501,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &711829391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711829388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &715376859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5868863452612035161, guid: e9834d8f7f2fed34aa4ceaab76745052, type: 3}
@@ -17762,6 +17946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761180347}
   - component: {fileID: 761180348}
+  - component: {fileID: 761180349}
   m_Layer: 0
   m_Name: cloud12_0
   m_TagString: Untagged
@@ -17839,6 +18024,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &761180349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761180346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!4 &776130528 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4487893428881808446, guid: e9834d8f7f2fed34aa4ceaab76745052, type: 3}
@@ -18109,6 +18309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 802913887}
   - component: {fileID: 802913888}
+  - component: {fileID: 802913889}
   m_Layer: 0
   m_Name: cloud8_0
   m_TagString: Untagged
@@ -18186,6 +18387,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &802913889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802913886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &816228114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18739,6 +18955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872036165}
   - component: {fileID: 872036166}
+  - component: {fileID: 872036167}
   m_Layer: 0
   m_Name: cloud14_0
   m_TagString: Untagged
@@ -18816,6 +19033,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &872036167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872036164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &882759541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21495,6 +21727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213199763}
   - component: {fileID: 1213199764}
+  - component: {fileID: 1213199765}
   m_Layer: 0
   m_Name: cloud2_0
   m_TagString: Untagged
@@ -21572,6 +21805,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1213199765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213199762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &1216697441
 GameObject:
   m_ObjectHideFlags: 0
@@ -30976,6 +31224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687282313}
   - component: {fileID: 1687282314}
+  - component: {fileID: 1687282315}
   m_Layer: 0
   m_Name: cloud15_0
   m_TagString: Untagged
@@ -31053,6 +31302,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1687282315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687282312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1 &1707618079
 GameObject:
   m_ObjectHideFlags: 0
@@ -31143,6 +31407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725382995}
   - component: {fileID: 1725382996}
+  - component: {fileID: 1725382997}
   m_Layer: 0
   m_Name: cloud4_0
   m_TagString: Untagged
@@ -31220,6 +31485,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1725382997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725382994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &1728864573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31993,6 +32273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867337687}
   - component: {fileID: 1867337688}
+  - component: {fileID: 1867337689}
   m_Layer: 0
   m_Name: cloud6_0
   m_TagString: Untagged
@@ -32070,6 +32351,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1867337689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867337686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb0958fdbd06d346b135edd2a3ddde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxeffect: 0
+  isLooping: 0
+  destroyAfterUse: 1
 --- !u!1001 &1868973562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45046,6 +45342,7 @@ Transform:
   - {fileID: 761180347}
   - {fileID: 872036165}
   - {fileID: 1867337687}
+  - {fileID: 143971074}
   m_Father: {fileID: 2772643661924885363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4338595085162423503
