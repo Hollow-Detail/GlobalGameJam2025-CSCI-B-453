@@ -32,7 +32,7 @@ public class Parallax : MonoBehaviour
         transform.position = new Vector3(transform.position.x, startpos + dist, transform.position.z);
 
 
-        if (GameManager.Instance.currentBubble.transform.position.y >= transform.position.y + Camera.main.orthographicSize + length)
+        /*if (GameManager.Instance.currentBubble.transform.position.y >= transform.position.y)
         {
             hasBeenPassed = true;
         }
@@ -63,12 +63,12 @@ public class Parallax : MonoBehaviour
 
             if (destroyAfterUse)
             {
-                if (temp > startpos + length)
+                if (temp > startpos + length*2)
                     Destroy(gameObject);
-                else if (temp < startpos - length) 
+                else if (temp < startpos - length*2) 
                     Destroy(gameObject);
             }
-        }
+        }*/
        
         
         
