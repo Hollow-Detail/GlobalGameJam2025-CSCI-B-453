@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: 7bc11a47209cdce43972d1c7b78289a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6866418101921950612
+    second: ExplodingSun_0
+  - first:
+      213: -792790557243573210
+    second: ExplodingSun_1
+  - first:
+      213: 4790757422225946648
+    second: ExplodingSun_2
+  - first:
+      213: 5732157343681734284
+    second: ExplodingSun_3
+  - first:
+      213: -5283198144605525486
+    second: ExplodingSun_4
+  - first:
+      213: -1947305325140235468
+    second: ExplodingSun_5
+  - first:
+      213: 4667440321436531356
+    second: ExplodingSun_6
+  - first:
+      213: 5206859786572005726
+    second: ExplodingSun_7
+  - first:
+      213: -5337137924033337826
+    second: ExplodingSun_8
+  - first:
+      213: -2596777041979084791
+    second: ExplodingSun_9
+  - first:
+      213: 6191014899592182450
+    second: ExplodingSun_10
+  - first:
+      213: 4837975419889809939
+    second: ExplodingSun_11
+  - first:
+      213: -8569487209889792513
+    second: ExplodingSun_12
+  - first:
+      213: -8319309194183811491
+    second: ExplodingSun_13
+  - first:
+      213: -2379302567800715301
+    second: ExplodingSun_14
+  - first:
+      213: -5284885151111073209
+    second: ExplodingSun_15
+  - first:
+      213: -2920586639112471419
+    second: ExplodingSun_16
+  - first:
+      213: 8966992139655814343
+    second: ExplodingSun_17
+  - first:
+      213: -291916475115197527
+    second: ExplodingSun_18
+  - first:
+      213: 825352573056935060
+    second: ExplodingSun_19
+  - first:
+      213: -6173972326095200609
+    second: ExplodingSun_20
+  - first:
+      213: 8182195009225099062
+    second: ExplodingSun_21
+  - first:
+      213: 3421636010532982614
+    second: ExplodingSun_22
+  - first:
+      213: -1905060849302079938
+    second: ExplodingSun_23
+  - first:
+      213: -3703383197198399103
+    second: ExplodingSun_24
+  - first:
+      213: -3985647255068135095
+    second: ExplodingSun_25
+  - first:
+      213: -4902540979424809078
+    second: ExplodingSun_26
+  - first:
+      213: 9211474226762990915
+    second: ExplodingSun_27
+  - first:
+      213: -7192561342043881127
+    second: ExplodingSun_28
+  - first:
+      213: 3648417062960389980
+    second: ExplodingSun_29
+  - first:
+      213: 7631479817960984022
+    second: ExplodingSun_30
+  - first:
+      213: 7407951809345162887
+    second: ExplodingSun_31
+  - first:
+      213: -7246451848020795903
+    second: ExplodingSun_32
+  - first:
+      213: -3606017811025983611
+    second: ExplodingSun_33
+  - first:
+      213: -4851095221979448996
+    second: ExplodingSun_34
+  - first:
+      213: -2586094836803242041
+    second: ExplodingSun_35
+  - first:
+      213: 8898448546715971657
+    second: ExplodingSun_36
+  - first:
+      213: 1869041681377998403
+    second: ExplodingSun_37
+  - first:
+      213: 699327584758018126
+    second: ExplodingSun_38
+  - first:
+      213: 8979641918570968430
+    second: ExplodingSun_39
+  - first:
+      213: 3462436795915198472
+    second: ExplodingSun_40
+  - first:
+      213: -773361573056681773
+    second: ExplodingSun_41
+  - first:
+      213: -7664600000551709845
+    second: ExplodingSun_42
+  - first:
+      213: 1038062186904316953
+    second: ExplodingSun_43
+  - first:
+      213: -8123750578883313535
+    second: ExplodingSun_44
+  - first:
+      213: -2999779518049938998
+    second: ExplodingSun_45
+  - first:
+      213: 1179399302579900712
+    second: ExplodingSun_46
+  - first:
+      213: -6390728412584991334
+    second: ExplodingSun_47
+  - first:
+      213: 4075454441506853823
+    second: ExplodingSun_48
+  - first:
+      213: 6548580319615590921
+    second: ExplodingSun_49
+  - first:
+      213: 6780569138997098006
+    second: ExplodingSun_50
+  - first:
+      213: -7189531980865543031
+    second: ExplodingSun_51
+  - first:
+      213: 3037786099373378791
+    second: ExplodingSun_52
+  - first:
+      213: -7515009210401628963
+    second: ExplodingSun_53
+  - first:
+      213: 258399829397023762
+    second: ExplodingSun_54
+  - first:
+      213: 1754746803880772275
+    second: ExplodingSun_55
+  - first:
+      213: -7055009905597010958
+    second: ExplodingSun_56
+  - first:
+      213: -1348598451464807627
+    second: ExplodingSun_57
+  - first:
+      213: -7432086430476791527
+    second: ExplodingSun_58
+  - first:
+      213: 1659497951519889262
+    second: ExplodingSun_59
+  - first:
+      213: 8640332978065747801
+    second: ExplodingSun_60
+  - first:
+      213: 530565080489419959
+    second: ExplodingSun_61
+  - first:
+      213: 2012868466750564974
+    second: ExplodingSun_62
+  - first:
+      213: -6756272877604318778
+    second: ExplodingSun_63
+  - first:
+      213: 3197674218121724496
+    second: ExplodingSun_64
+  - first:
+      213: -7590409383162865908
+    second: ExplodingSun_65
+  - first:
+      213: 5185871753012558743
+    second: ExplodingSun_66
+  - first:
+      213: 1472711816315201280
+    second: ExplodingSun_67
+  - first:
+      213: 3644896119321002787
+    second: ExplodingSun_68
+  - first:
+      213: -6371080394848623934
+    second: ExplodingSun_69
+  - first:
+      213: -7282092097655057725
+    second: ExplodingSun_70
+  - first:
+      213: 5696461052863685797
+    second: ExplodingSun_71
+  - first:
+      213: -7886645704755351265
+    second: ExplodingSun_72
+  - first:
+      213: 7777193166393020281
+    second: ExplodingSun_73
+  - first:
+      213: 1696092630816920988
+    second: ExplodingSun_74
+  - first:
+      213: -5386245696805655126
+    second: ExplodingSun_75
+  - first:
+      213: 5232574701395931664
+    second: ExplodingSun_76
+  - first:
+      213: -4883898025045485640
+    second: ExplodingSun_77
+  - first:
+      213: 6683944772910545192
+    second: ExplodingSun_78
+  - first:
+      213: -875557572286466702
+    second: ExplodingSun_79
+  - first:
+      213: -4483794562212000998
+    second: ExplodingSun_80
+  - first:
+      213: -4429027487492075912
+    second: ExplodingSun_81
+  - first:
+      213: -2920567044973519
+    second: ExplodingSun_82
+  - first:
+      213: -9162966644769096571
+    second: ExplodingSun_83
+  - first:
+      213: 8513298563391370769
+    second: ExplodingSun_84
+  - first:
+      213: -6899492878303910013
+    second: ExplodingSun_85
+  - first:
+      213: 1544905819177904982
+    second: ExplodingSun_86
+  - first:
+      213: -4678957056113097622
+    second: ExplodingSun_87
+  - first:
+      213: 1284996529717160174
+    second: ExplodingSun_88
+  - first:
+      213: -8774709832537921158
+    second: ExplodingSun_89
+  - first:
+      213: -3782567936261805831
+    second: ExplodingSun_90
+  - first:
+      213: 483805425675934052
+    second: ExplodingSun_91
+  - first:
+      213: 2098675732584715623
+    second: ExplodingSun_92
+  - first:
+      213: 4348622069826534691
+    second: ExplodingSun_93
+  - first:
+      213: -8276616203705117087
+    second: ExplodingSun_94
+  - first:
+      213: -7841352224288483340
+    second: ExplodingSun_95
+  - first:
+      213: -991980405109655472
+    second: ExplodingSun_96
+  - first:
+      213: -877755179687233912
+    second: ExplodingSun_97
+  - first:
+      213: 5482170529223424105
+    second: ExplodingSun_98
+  - first:
+      213: 3824518042666464307
+    second: ExplodingSun_99
+  - first:
+      213: 2122174156995654264
+    second: ExplodingSun_100
+  - first:
+      213: -5668710464560921330
+    second: ExplodingSun_101
+  - first:
+      213: -8794272518421827934
+    second: ExplodingSun_102
+  - first:
+      213: 5605901233368699934
+    second: ExplodingSun_103
+  - first:
+      213: -7898816079594217375
+    second: ExplodingSun_104
+  - first:
+      213: -2434145618834870289
+    second: ExplodingSun_105
+  - first:
+      213: -1267711708758215271
+    second: ExplodingSun_106
+  - first:
+      213: 4173328825099350149
+    second: ExplodingSun_107
+  - first:
+      213: 2038410223513561310
+    second: ExplodingSun_108
+  - first:
+      213: 4239573986269091795
+    second: ExplodingSun_109
+  - first:
+      213: 5207266636150596418
+    second: ExplodingSun_110
+  - first:
+      213: -6719634385824496437
+    second: ExplodingSun_111
+  - first:
+      213: -2689816516987934605
+    second: ExplodingSun_112
+  - first:
+      213: -5097137280621050529
+    second: ExplodingSun_113
+  - first:
+      213: -1109173778073128033
+    second: ExplodingSun_114
+  - first:
+      213: 6369827426336557620
+    second: ExplodingSun_115
+  - first:
+      213: -8388160965001327862
+    second: ExplodingSun_116
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplodingSun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28478f91d06b93a4f9cb498aefae4269
+      internalID: -1428331814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e3b9e6f35e07b48af798fd8e803a2a
+      internalID: -1931156740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f742b430f8eb348a1078e973f6601e
+      internalID: -1084818595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_3
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb3a874bc3f23418f4f038f13f4fa0
+      internalID: -1524446324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_4
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0918825630534d64f98463dd744e3f1d
+      internalID: 587023183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f70e1c637b9344e87b7cc55ff3e1dd
+      internalID: 1930654529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4337590d2fdbb174b8fb21cb46ff26df
+      internalID: 139357493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9ad3b49f3587e4e892914e778e6486
+      internalID: 192857282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5a75cdd8dc24e4aa86de557474c24e
+      internalID: 917894638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_9
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9347cc65ece7be049890083a01e3d5ef
+      internalID: 1758354814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874613a1ff5a1bc47a82ef9b9d81041d
+      internalID: 903664181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c501c831dd74e47af8a6a897887edf
+      internalID: -415203561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_12
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5167436bbd6b2a545b8f1a16b3c9f223
+      internalID: 348409520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_13
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483411db579f3d04ca907a9e54812adb
+      internalID: 411232424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed61946cbe39374b9127bf92ab3ce69
+      internalID: 1332400583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a7d1df039c90469f65616e4e07deb
+      internalID: -1885129095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d339a80bfcc9ca44ca584b827f9e6478
+      internalID: 1549353917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73879ab9014c35543bff768ce7f11109
+      internalID: -374121278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_18
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c275c11bce5ec8841b0e9e973dcb67b2
+      internalID: -1460012034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplodingSun_19
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6295b8f7401708488bee794f5d4688d
+      internalID: 354738186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9e602adb555e3214aa4a5dee338960b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExplodingSun_0: -1428331814
+      ExplodingSun_1: -1931156740
+      ExplodingSun_10: 903664181
+      ExplodingSun_11: -415203561
+      ExplodingSun_12: 348409520
+      ExplodingSun_13: 411232424
+      ExplodingSun_14: 1332400583
+      ExplodingSun_15: -1885129095
+      ExplodingSun_16: 1549353917
+      ExplodingSun_17: -374121278
+      ExplodingSun_18: -1460012034
+      ExplodingSun_19: 354738186
+      ExplodingSun_2: -1084818595
+      ExplodingSun_3: -1524446324
+      ExplodingSun_4: 587023183
+      ExplodingSun_5: 1930654529
+      ExplodingSun_6: 139357493
+      ExplodingSun_7: 192857282
+      ExplodingSun_8: 917894638
+      ExplodingSun_9: 1758354814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
