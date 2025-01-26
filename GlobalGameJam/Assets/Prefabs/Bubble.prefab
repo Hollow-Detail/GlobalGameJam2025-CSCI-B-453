@@ -1,5 +1,51 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1881232605875863393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2323530695529468387}
+  - component: {fileID: 2504587734115357064}
+  m_Layer: 0
+  m_Name: EndCutsceneState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2323530695529468387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881232605875863393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8565969657598078953}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2504587734115357064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881232605875863393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 571cd4b503a9a404ba2887bdaafd9d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: 0.1
+  centerSpeed: 5
 --- !u!1 &4360104400793024193
 GameObject:
   m_ObjectHideFlags: 0
@@ -32,6 +78,7 @@ Transform:
   - {fileID: 2343373666214277425}
   - {fileID: 3182500738503401187}
   - {fileID: 342443153324883195}
+  - {fileID: 2323530695529468387}
   m_Father: {fileID: 1011133519420971137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5213352444864524057
@@ -161,6 +208,7 @@ MonoBehaviour:
   <moveState>k__BackingField: {fileID: 146982088757014673}
   <frozenState>k__BackingField: {fileID: 790254597715550810}
   <idleState>k__BackingField: {fileID: 2768299859492126294}
+  <endCutsceneState>k__BackingField: {fileID: 0}
   popDrag: 10
   maxYSpeed: 4
   maxYSpeedIce: 2
@@ -170,7 +218,7 @@ MonoBehaviour:
   frozenGravity: 1
   acceleration: 8
   decelerationScale: 1.5
-  bubbleMaterial: {fileID: 0}
+  bubbleMaterial: {fileID: 2100000, guid: 657cee48cfa316a4eab5e7f20275bdcb, type: 2}
   inWind: 0
   inIce: 0
 --- !u!61 &3652009381395757189
@@ -379,7 +427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5931012188680231335
 Transform:
   m_ObjectHideFlags: 0
@@ -410,9 +458,9 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5300,10 +5348,10 @@ MonoBehaviour:
   bm: {fileID: 5240733555521641760}
   maxFallSpeed: 7
   frozenDuration: 1.25
-  frozenSprite: {fileID: 0}
-  regularSprite: {fileID: 0}
-  sr: {fileID: 0}
-  thawParticles: {fileID: 0}
+  frozenSprite: {fileID: 5401570498604863991, guid: 05d008a93cb36cb498f66355eb70c0de, type: 3}
+  regularSprite: {fileID: -5712959122012955994, guid: 3a7ca624c475e864284035065f52e7d4, type: 3}
+  sr: {fileID: 7352007769528015995}
+  thawParticles: {fileID: 387405941302710992}
 --- !u!1 &8701841576470367146
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,8 +13,8 @@ public class Parallax : MonoBehaviour
     [SerializeField] private float parallaxeffect;
     [SerializeField] private bool isLooping; // Enable if you want the parallax object to loop
     [SerializeField] private bool destroyAfterUse; // Enable if you want the parallax object to be destroyed
-    
 
+    private int numUses;
     void Start()
     {
         startpos = transform.position.y;
@@ -30,21 +30,33 @@ public class Parallax : MonoBehaviour
 
         transform.position = new Vector3(transform.position.x, startpos + dist, transform.position.z);
 
-        if (isLooping)
+
+        if (numUses == 0)
         {
             if (temp > startpos + length)
                 startpos += length * 2;
             else if (temp < startpos - length) 
                 startpos -= length * 2;
         }
-
-        if (destroyAfterUse)
+        else
         {
-            if (temp > startpos + length)
-                Destroy(gameObject);
-            else if (temp < startpos - length) 
-                Destroy(gameObject);
+            if (isLooping)
+            {
+                if (temp > startpos + length)
+                    startpos += length * 2;
+                else if (temp < startpos - length) 
+                    startpos -= length * 2;
+            }
+
+            if (destroyAfterUse)
+            {
+                if (temp > startpos + length)
+                    Destroy(gameObject);
+                else if (temp < startpos - length) 
+                    Destroy(gameObject);
+            }
         }
+       
         
         
 

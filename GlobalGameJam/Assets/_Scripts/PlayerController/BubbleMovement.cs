@@ -11,6 +11,7 @@ public class BubbleMovement : StateMachineCore
     [field:SerializeField] public State moveState { get; private set; }
     [field:SerializeField] public State frozenState { get; private set; }
     [field:SerializeField] public State idleState { get; private set; }
+    [field:SerializeField] public State endCutsceneState { get; private set; }
 
     [Header("Bubble Movement Variables")]
     [SerializeField] public float popDrag;
@@ -29,7 +30,7 @@ public class BubbleMovement : StateMachineCore
         // TODO: Clean up subscriptions
         GameManager.Instance.bubblePop.OnBubblePop += OnBubblePop;
         GameManager.Instance.OnStartGame += OnStartGame;
-
+        GameManager.Instance.endCutsceneTrigger.OnEndCutscene += OnEndCutscene;
     }
 
     private void OnBubblePop(object sender, EventArgs args)
@@ -44,6 +45,11 @@ public class BubbleMovement : StateMachineCore
     private void OnStartGame(object sender, EventArgs args)
     {
         stateMachine.SetState(moveState);
+    }
+
+    private void OnEndCutscene(object sender, EventArgs args)
+    {
+        stateMachine.SetState(endCutsceneState);
     }
 
     // Update is called once per frame
