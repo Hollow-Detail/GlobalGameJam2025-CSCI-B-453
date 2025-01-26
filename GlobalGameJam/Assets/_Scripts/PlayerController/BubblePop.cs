@@ -4,6 +4,7 @@ using UnityEngine;
 public class BubblePop : MonoBehaviour
 {
     public event EventHandler OnBubblePop;
+    [SerializeField] private bool isInvincible;
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -14,7 +15,8 @@ public class BubblePop : MonoBehaviour
         if (collision.gameObject.TryGetComponent(out IPopper popper))
         {
             popper.Pop();
-            // OnBubblePop?.Invoke(this, EventArgs.Empty);
+            if(!isInvincible)
+                OnBubblePop?.Invoke(this, EventArgs.Empty);
         }
     }
 
@@ -23,7 +25,8 @@ public class BubblePop : MonoBehaviour
         if (other.gameObject.TryGetComponent(out IPopper popper))
         {
             popper.Pop();
-            // OnBubblePop?.Invoke(this, EventArgs.Empty);
+            if(!isInvincible)
+                OnBubblePop?.Invoke(this, EventArgs.Empty);
         }
     }
 }

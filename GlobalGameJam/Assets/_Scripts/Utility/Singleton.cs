@@ -12,7 +12,12 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     protected virtual void Awake()
     {
         if (Instance != null)
+        {
+            Debug.Log("Singleton Instance already exists!");
             Destroy(gameObject);
+            return;
+        }
+            
 
         Instance = this as T;
     }
@@ -27,11 +32,9 @@ public abstract class SingletonPersistent<T> : Singleton<T> where T : MonoBehavi
 {
     protected override void Awake()
     {
-        if (Instance != null)
-            Destroy(gameObject);
-
-        DontDestroyOnLoad(gameObject);
         base.Awake();
+        DontDestroyOnLoad(gameObject);
+
     }
 }
 

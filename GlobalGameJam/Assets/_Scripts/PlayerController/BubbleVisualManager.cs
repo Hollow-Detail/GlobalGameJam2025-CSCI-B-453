@@ -3,15 +3,15 @@ using UnityEngine;
 using DG.Tweening;
 public class BubbleVisualManager : MonoBehaviour
 {
-    [SerializeField] private float squashScale, squashTime, translateScale, translateTime;
+    [SerializeField] private float squashScale, squashTime, translateScale, translateTime, delayTime;
     [SerializeField] private GameObject sprite;
     [SerializeField] private ParticleSystem[] popParticles;
 
     private void Awake()
     {
-        transform.DOScaleY(squashScale, squashTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetLink(gameObject);
-        transform.DOScaleX(squashScale, squashTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetInverted().SetLink(gameObject);
-        transform.DOLocalMoveY(translateScale, translateTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetLink(gameObject);
+        transform.DOScaleY(squashScale, squashTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetLink(gameObject).SetDelay(delayTime);
+        transform.DOScaleX(squashScale, squashTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetInverted().SetLink(gameObject).SetDelay(delayTime);
+        transform.DOLocalMoveY(translateScale, translateTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetLink(gameObject).SetDelay(delayTime);
     }
 
     private void Start()

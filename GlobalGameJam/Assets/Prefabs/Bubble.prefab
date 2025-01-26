@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: 0.1
-  centerSpeed: 5
+  centerSpeed: 1
+  maxSpeedY: 0.5
 --- !u!1 &4360104400793024193
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,9 +137,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1011133519420971137}
   - component: {fileID: 7779222427918801805}
+  - component: {fileID: 1085513477589595815}
   - component: {fileID: 5240733555521641760}
   - component: {fileID: 3652009381395757189}
-  - component: {fileID: 1085513477589595815}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Player
@@ -191,6 +192,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1085513477589595815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5296502592425903977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11424eddb4d81f749aed26b2bb706584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInvincible: 0
 --- !u!114 &5240733555521641760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +222,7 @@ MonoBehaviour:
   <moveState>k__BackingField: {fileID: 146982088757014673}
   <frozenState>k__BackingField: {fileID: 790254597715550810}
   <idleState>k__BackingField: {fileID: 2768299859492126294}
-  <endCutsceneState>k__BackingField: {fileID: 0}
+  <endCutsceneState>k__BackingField: {fileID: 2504587734115357064}
   popDrag: 10
   maxYSpeed: 4
   maxYSpeedIce: 2
@@ -267,18 +281,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1085513477589595815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296502592425903977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11424eddb4d81f749aed26b2bb706584, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5543616731790074962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5402,6 +5404,7 @@ MonoBehaviour:
   squashTime: 0.75
   translateScale: 0.15
   translateTime: 1.25
+  delayTime: 0
   sprite: {fileID: 5543616731790074962}
   popParticles:
   - {fileID: 4953131741331051611}

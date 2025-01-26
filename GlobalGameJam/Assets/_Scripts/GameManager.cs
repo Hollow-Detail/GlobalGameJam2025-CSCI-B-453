@@ -1,5 +1,10 @@
 using System;
+using System.ComponentModel;
+using NaughtyAttributes;
+using Unity.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using NaughtyAttributes;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -7,6 +12,11 @@ public class GameManager : Singleton<GameManager>
     [field: SerializeField] public BubbleMovement currentBubble { get; private set; }
     [field: SerializeField] public EndCutsceneTrigger endCutsceneTrigger { get; private set; }
     [SerializeField] private GameObject startGameCamera, gameOverCamera, followCamera, endCutsceneCamera, startGameCanvas;
+    // [Header("Height System")]
+    [SerializeField] private float startHeight, maxHeight, heightScale;
+
+    [NaughtyAttributes.ReadOnly, SerializeField] private float currentHeight, currentHeight01;
+    
     private bool isGameStarted = false;
     public event EventHandler OnStartGame;
 
@@ -23,11 +33,22 @@ public class GameManager : Singleton<GameManager>
         {
             StartGame();
         }
+        
+        currentHeight01 = Utilites.Map(currentBubble.transform.position.y, startHeight, maxHeight, 0, 1);
+        currentHeight = currentHeight01 * heightScale;
+        
     }
 
     private void OnBubblePop(object sender, EventArgs args)
     {
-        // gameOverCamera.SetActive(true);
+        Invoke(nameof(ResetGame), 1f);
+        startGameCamera.gameObject.SetActive(true);
+        
+    }
+
+    private void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnEndCutsene(object sender, EventArgs args)

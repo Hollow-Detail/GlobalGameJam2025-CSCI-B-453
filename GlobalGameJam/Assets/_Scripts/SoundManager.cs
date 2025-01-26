@@ -93,5 +93,4 @@ public class SoundManager : SingletonPersistent<SoundManager>
         [SerializeField, Range(0f, 1f)]
         public float volume;
     }
-
 }
