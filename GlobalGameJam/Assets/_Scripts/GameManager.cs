@@ -7,25 +7,32 @@ using Unity.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
+using Unity.Cinemachine;
 
 public class GameManager : Singleton<GameManager>
 {
     [field: SerializeField] public BubblePop bubblePop { get; private set; }
     [field: SerializeField] public BubbleMovement currentBubble { get; private set; }
     [field: SerializeField] public EndCutsceneTrigger endCutsceneTrigger { get; private set; }
-    [SerializeField] private GameObject startGameCamera, gameOverCamera, followCamera, endCutsceneCamera, startGameCanvas;
+    [SerializeField] private GameObject startGameCamera, gameOverCamera, endCutsceneCamera, startGameCanvas;
+
+    [SerializeField] private CinemachineCamera followCamera;
+    [SerializeField] private float waitBeforeZoomTime, gameOverOrthographicSize, gameOverZoomSpeed;
     // [Header("Height System")]
     [SerializeField] private float startHeight, maxHeight, heightScale;
 
-    [NaughtyAttributes.ReadOnly, SerializeField] private float currentHeight, currentHeight01;
+    [NaughtyAttributes.ReadOnly, SerializeField] public float currentHeight, currentHeight01;
     
     private bool isGameStarted = false;
     public event EventHandler OnStartGame;
+    public event EventHandler OnEndGame;
 
     private void Start()
     {
         bubblePop.OnBubblePop += OnBubblePop;
         endCutsceneTrigger.OnEndCutscene += OnEndCutsene;
+        
+        
         startGameCamera.gameObject.SetActive(true);
     }
 
@@ -41,15 +48,28 @@ public class GameManager : Singleton<GameManager>
         
     }
 
-    private void OnBubblePop(object sender, EventArgs args)
+    
+    
+    public void EndGame()
     {
-        Invoke(nameof(ResetGame), 1f);
-        startGameCamera.gameObject.SetActive(true);
+        OnEndGame?.Invoke(this, EventArgs.Empty);
     }
 
-    public IEnumerator DeathCamera()
+    private void OnBubblePop(object sender, EventArgs args)
     {
-        yield return new WaitForSeconds(1f);
+        StartCoroutine(DeathCamera());
+    }
+
+    private IEnumerator DeathCamera()
+    {
+        yield return new WaitForSeconds(waitBeforeZoomTime);
+        while (followCamera.Lens.OrthographicSize > gameOverOrthographicSize)
+        {
+            followCamera.Lens.OrthographicSize -= gameOverZoomSpeed * Time.deltaTime;
+            yield return null;
+        }
+        Invoke(nameof(ResetGame), 1f);
+        startGameCamera.gameObject.SetActive(true);
     }
 
     private void ResetGame()
@@ -67,7 +87,7 @@ public class GameManager : Singleton<GameManager>
     {
         OnStartGame?.Invoke(this, EventArgs.Empty);
         startGameCanvas.gameObject.SetActive(false);
-        followCamera.SetActive(true);
+        followCamera.gameObject.SetActive(true);
         startGameCamera.SetActive(false);
         isGameStarted = true;
     }

@@ -33,6 +33,13 @@ public class BubbleMovement : StateMachineCore
         GameManager.Instance.endCutsceneTrigger.OnEndCutscene += OnEndCutscene;
     }
 
+    public void OnEndGame()
+    {
+        stateMachine.SetState(idleState);
+        rb.gravityScale = 0;
+        rb.linearDamping = popDrag / 5f;
+    }
+
     private void OnBubblePop(object sender, EventArgs args)
     {
         rb.gravityScale = 0;

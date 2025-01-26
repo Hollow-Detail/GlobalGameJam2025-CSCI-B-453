@@ -7,6 +7,6 @@ public class WallGradient : MonoBehaviour
 
     private void Update()
     {
-        spriteRenderer.color = gradient.Evaluate(1f);
+        spriteRenderer.color = gradient.Evaluate(1 - GameManager.Instance.currentHeight01);
     }
 }
