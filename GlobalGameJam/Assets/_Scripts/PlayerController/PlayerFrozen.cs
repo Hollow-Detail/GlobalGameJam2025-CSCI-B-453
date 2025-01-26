@@ -6,6 +6,7 @@ public class PlayerFrozen : State
     [SerializeField] private float maxFallSpeed, frozenDuration;
     [SerializeField] private Sprite frozenSprite, regularSprite;
     [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private ParticleSystem thawParticles;
     public override void DoEnterLogic()
     {
         base.DoEnterLogic();
@@ -27,5 +28,6 @@ public class PlayerFrozen : State
     {
         base.DoExitLogic();
         sr.sprite = regularSprite;
+        thawParticles.Play();
     }
 }
