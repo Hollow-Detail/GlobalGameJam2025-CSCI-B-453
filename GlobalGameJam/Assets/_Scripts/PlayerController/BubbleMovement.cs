@@ -15,6 +15,7 @@ public class BubbleMovement : StateMachineCore
     [Header("Bubble Movement Variables")]
     [SerializeField] public float popDrag;
     [SerializeField] public float maxYSpeed, maxYSpeedIce, maxXSpeed, maxXSpeedIce, gravity, frozenGravity, acceleration, decelerationScale;
+    [SerializeField] private Material bubbleMaterial;
     private float freezeTimer;
     public bool inWind, inIce;
     void Awake()
@@ -37,6 +38,7 @@ public class BubbleMovement : StateMachineCore
         rb.linearDamping = popDrag;
         SoundManager.Instance?.PlayEntireSound(SoundManager.Sounds.Pop);
         stateMachine.SetState(idleState);
+        Destroy(GetComponent<Collider2D>());
     }
     
     private void OnStartGame(object sender, EventArgs args)
@@ -52,6 +54,18 @@ public class BubbleMovement : StateMachineCore
         if (stateMachine.currentState == frozenState && stateMachine.currentState.isComplete)
         {
             stateMachine.SetState(moveState);
+        }
+
+
+        if (inIce)
+        {
+            float _frozenAmount =  bubbleMaterial.GetFloat("_FrozenAmount" );
+            
+            bubbleMaterial.SetFloat("_FrozenAmount", Mathf.Clamp01(_frozenAmount + Time.deltaTime * 2));
+        }
+        else
+        {
+            bubbleMaterial.SetFloat("_FrozenAmount", 0);
         }
         
         // DEBUG

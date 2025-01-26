@@ -14,7 +14,7 @@ public class BubblePop : MonoBehaviour
         if (collision.gameObject.TryGetComponent(out IPopper popper))
         {
             popper.Pop();
-            OnBubblePop?.Invoke(this, EventArgs.Empty);
+            // OnBubblePop?.Invoke(this, EventArgs.Empty);
         }
     }
 
@@ -23,7 +23,7 @@ public class BubblePop : MonoBehaviour
         if (other.gameObject.TryGetComponent(out IPopper popper))
         {
             popper.Pop();
-            OnBubblePop?.Invoke(this, EventArgs.Empty);
+            // OnBubblePop?.Invoke(this, EventArgs.Empty);
         }
     }
 }
