@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel;
 using NaughtyAttributes;
 using Unity.Collections;
@@ -43,7 +45,11 @@ public class GameManager : Singleton<GameManager>
     {
         Invoke(nameof(ResetGame), 1f);
         startGameCamera.gameObject.SetActive(true);
-        
+    }
+
+    public IEnumerator DeathCamera()
+    {
+        yield return new WaitForSeconds(1f);
     }
 
     private void ResetGame()
