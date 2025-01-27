@@ -7,6 +7,7 @@ using Unity.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
+using TMPro;
 using Unity.Cinemachine;
 
 public class GameManager : Singleton<GameManager>
@@ -15,6 +16,7 @@ public class GameManager : Singleton<GameManager>
     [field: SerializeField] public BubbleMovement currentBubble { get; private set; }
     [field: SerializeField] public EndCutsceneTrigger endCutsceneTrigger { get; private set; }
     [SerializeField] private GameObject startGameCamera, gameOverCamera, endCutsceneCamera, startGameCanvas;
+    [SerializeField] private TextMeshProUGUI distanceText;
 
     [SerializeField] private CinemachineCamera followCamera;
     [SerializeField] private float waitBeforeZoomTime, gameOverOrthographicSize, gameOverZoomSpeed;
@@ -45,7 +47,9 @@ public class GameManager : Singleton<GameManager>
         
         currentHeight01 = Utilites.Map(currentBubble.transform.position.y, startHeight, maxHeight, 0, 1);
         currentHeight = currentHeight01 * heightScale;
-        
+
+        distanceText.text = (int)currentHeight + " meters";
+
     }
 
     
