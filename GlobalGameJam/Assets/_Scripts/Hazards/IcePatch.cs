@@ -25,6 +25,7 @@ public class IcePatch : MonoBehaviour
         {
             timer = freezeTime;
             timerActive = true;
+            SoundManager.Instance.iceCrackle.Play();
         }
     }
 
@@ -33,6 +34,7 @@ public class IcePatch : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             timerActive = false;
+            SoundManager.Instance.iceCrackle.Stop();
         }
     }
     

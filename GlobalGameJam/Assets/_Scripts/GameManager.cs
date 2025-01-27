@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 using NaughtyAttributes;
 using TMPro;
 using Unity.Cinemachine;
+using DG.Tweening;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -16,10 +17,11 @@ public class GameManager : Singleton<GameManager>
     [field: SerializeField] public BubbleMovement currentBubble { get; private set; }
     [field: SerializeField] public EndCutsceneTrigger endCutsceneTrigger { get; private set; }
     [SerializeField] private GameObject startGameCamera, gameOverCamera, endCutsceneCamera, startGameCanvas;
-    [SerializeField] private TextMeshProUGUI distanceText;
+    [SerializeField] private TextMeshProUGUI distanceText, bestScoreText, newBestText;
 
     [SerializeField] private CinemachineCamera followCamera;
-    [SerializeField] private float waitBeforeZoomTime, gameOverOrthographicSize, gameOverZoomSpeed;
+    [SerializeField] private float waitBeforeZoomTime, gameOverOrthographicSize, gameOverZoomSpeed, tweenDuration;
+    [SerializeField] private Vector2 tweenOffset;
     // [Header("Height System")]
     [SerializeField] private float startHeight, maxHeight, heightScale;
 
@@ -36,6 +38,7 @@ public class GameManager : Singleton<GameManager>
         
         
         startGameCamera.gameObject.SetActive(true);
+        bestScoreText.text = "Best: " + PlayerPrefs.GetInt("BestScore", 0) + " meters";
     }
 
     private void Update()
@@ -66,6 +69,16 @@ public class GameManager : Singleton<GameManager>
 
     private IEnumerator DeathCamera()
     {
+        
+        int bestScore = PlayerPrefs.GetInt("BestScore");
+        if (currentHeight > bestScore)
+        {
+            newBestText.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("BestScore", (int)currentHeight);
+        }
+        
+        distanceText.rectTransform.DOLocalMove(tweenOffset, tweenDuration).SetEase(Ease.InOutSine);
+        distanceText.rectTransform.DOScale(Vector3.one * 2.5f, tweenDuration).SetEase(Ease.InOutBack);
         yield return new WaitForSeconds(waitBeforeZoomTime);
         while (followCamera.Lens.OrthographicSize > gameOverOrthographicSize)
         {

@@ -14,6 +14,9 @@ public class SoundManager : SingletonPersistent<SoundManager>
     [SerializeField]
     private int maxAudioSources = 10;
 
+
+    [SerializeField] public AudioSource iceCrackle;
+    
     public enum Sounds
     {
         Pop,

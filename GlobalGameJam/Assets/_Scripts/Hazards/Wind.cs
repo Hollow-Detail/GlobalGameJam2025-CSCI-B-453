@@ -10,7 +10,7 @@ public class Wind : MonoBehaviour
     {
         if (other.TryGetComponent(out BubbleMovement bubbleMovement))
         {
-            SoundManager.Instance?.PlaySound(SoundManager.Sounds.Wind);
+            SoundManager.Instance?.PlayEntireSound(SoundManager.Sounds.Wind);
         }
     }
     private void OnTriggerStay2D(Collider2D other)
