@@ -19,10 +19,15 @@ public class BubbleMovement : StateMachineCore
     [SerializeField] private Material bubbleMaterial;
     private float freezeTimer;
     public bool inWind, inIce;
+
+    private BubbleHeat bubbleHeat;
     void Awake()
     {
         SetupInstances();
         stateMachine.SetState(idleState);
+
+        // grabbing the value from the bubble
+        bubbleHeat = GetComponent<BubbleHeat>();
     }
 
     private void Start()
@@ -69,7 +74,18 @@ public class BubbleMovement : StateMachineCore
             stateMachine.SetState(moveState);
         }
 
-
+        if (bubbleHeat.heatValue > 25)
+        {
+            IncreaseSpeed();
+        }
+        if (bubbleHeat.heatValue < 20)
+        {
+            DecreaseSpeed();
+        }
+        if(bubbleHeat.heatValue < 5)
+        {
+            inIce = true;
+        }
         if (inIce)
         {
             float _frozenAmount =  bubbleMaterial.GetFloat("_FrozenAmount" );
@@ -87,6 +103,27 @@ public class BubbleMovement : StateMachineCore
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         
+    }
+
+    // Increases the speed
+    public void IncreaseSpeed()
+    {
+        float normalizedHeat = Mathf.Clamp01(bubbleHeat.heatValue / 100f); 
+        
+        float horizontalSpeedMultiplier = 1f + (normalizedHeat * 0.9f); 
+        
+        maxXSpeed = Mathf.Lerp(0, maxYSpeed, horizontalSpeedMultiplier);
+    }
+
+    // Decrease the speed 
+
+    public void DecreaseSpeed()
+    {
+        float noramlizedheat2 = Mathf.Clamp01(bubbleHeat.heatValue / 100f);
+
+        float horizontalSpeedMultiplier2 = 1f + (noramlizedheat2 * 0.9f);
+
+        maxXSpeed = Mathf.Lerp(0, maxYSpeed, horizontalSpeedMultiplier2);
     }
 
     private void FixedUpdate()
